@@ -10,46 +10,100 @@
 </head>
 <body>
     <header>
-        <img src="../images/logo.png" alt="Logo">
-        <nav id="header-links">
-            <a href="../index.html">Home</a>
-            <a href="../html/shop.html">Shop</a>
-            <a href="../html/cart.html">Cart</a>
+        <nav class="navbar navbar-expand bg-dark pe-5">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="../images/logo.png"  alt="Logo" style="width: 300px; height: 115px;">
+                </a>
+
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="../html/shop.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="../html/cart.html">Cart</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <nav>
-        <a href="../html/shop.html">Back to Shop</a>
-    </nav>
-
-    <div id="soccer-products">
-        <img src="../images/soccer-ball.jpg" alt="Soccer Ball">
-        <h3>Soccer Ball</h3>
-        <img src="../images/soccer-cleats.jpg" alt="Soccer Cleats">
-        <h3>Soccer Cleats</h3>
-        <img src="../images/soccer-socks.jpg" alt="Soccer Socks">
-        <h3>Socker Socks</h3>
+    <div class="container text-center pt-5">
+        <button type="button" class="btn btn-primary "><a class="text-white text-decoration-none" href="../html/shop.html">Back to Shop</a></button>
     </div>
+
+    <div class="container-fluid">
+        <div class="card mx-auto col-md-4 col-10 mt-5 pt-4 border border-dark">
+            <img class="mx-auto img-thumbnail border border-dark" src="../images/soccer-ball.jpg" alt="Soccer Ball" width="400px" height="400px">
+            <div class="card-body text-center mx-auto">
+                <h5 class="card-title">Soccer Ball</h5>
+                <p class="card-text">$30</p>
+                <button type="button" class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="card mx-auto col-md-4 col-10 mt-5 pt-4 border border-dark">
+            <img class="mx-auto img-thumbnail border border-dark" src="../images/soccer-cleats.jpg" alt="Soccer Cleats" width="400px" height="400px">
+            <div class="card-body text-center mx-auto">
+                <h5 class="card-title">Soccer Cleats</h5>
+                <p class="card-text">$120</p>
+                <button type="button" class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="card mx-auto col-md-4 col-10 mt-5 pt-4 border border-dark">
+            <img class="mx-auto img-thumbnail border border-dark" src="../images/soccer-socks.jpg" alt="Soccer Socks" width="400px" height="400px">
+            <div class="card-body text-center mx-auto">
+                <h5 class="card-title">Soccer Socks</h5>
+                <p class="card-text">$10</p>
+                <button type="button" class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-5"></div>
     
-    <footer>
-        <nav id="footer-links">
-            <a href="../html/FAQ.html">FAQ</a>
-            <a href="../html/contact.html">Contact</a>
-            <a href="../html/shipping.html">Shipping</a>
-        </nav>
+    <footer class="navbar-dark bg-dark pt-3 pb-5">
+        <div class="container">
 
-        <nav id="footer-socials">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>   
-        </nav>
+            <div class="row">
+                <ul class="nav justify-content-end" id="footer-socials">
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                </ul>
+            </div>
 
-        <nav id="secondary-footer-links">
-            <a href="../html/privacy-policy.html">Privacy Policy</a>
-            <a href="../html/terms-of-service.html">Terms of Service</a>
-        </nav>
+            <div class="row pb-3">
+                <ul class="nav justify-content-center" id="footer-links">
+                    <li class="nav-item"><a class="nav-link" href="../html/FAQ.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/shipping.html">Shipping</a></li>
+                </ul>
+            </div>
 
-        <p>&copy; 2025 Champion Sports. All Rights Reserved</p>
+            <div class="row">
+                <ul class="nav justify-content-center" id="secondary-footer-links">
+                    <li class="nav-item"><a class="nav-link" href="../html/privacy-policy.html">Privacy Policy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/terms-of-service.html">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="row" id="copyright-text">
+                <p class="text-light text-center pt-4">&copy; 2025 Champion Sports. All Rights Reserved</p>
+            </div>
+        </div>
+
     </footer>
 </body>
 </html>

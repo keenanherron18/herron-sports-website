@@ -1,0 +1,28 @@
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+/*xs*/
+@media screen and (max-width: 575px) {
+
+}
+/*small*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+/*medium*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+/*large*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+/*xl*/
+@media screen and (min-width: 1200px) {
+
+}

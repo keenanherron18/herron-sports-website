@@ -1,9 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
 .container-fluid {
     padding: 0;
 }
 
 .navbar-toggler .navbar-toggler-icon {
     filter: invert(100%);
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+.navbar-nav {
+    font-family: Alata;
+    font-size: 17px;
+}
+
+form h2 {
+    font-family: Alata;
+}
+
+form input, textarea {
+    font-family: cardo;
+}
+
+form .btn {
+    font-family: alata;
+}
+
+#contact-info {
+    font-family: alata;
+}
+
+.nav-item {
+    font-family: Alata;
+}
+
+#copyright-text {
+    font-family: cardo;
 }
 
 

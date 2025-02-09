@@ -1,9 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 .container-fluid {
     padding: 0;
 }
 
 .navbar-toggler .navbar-toggler-icon {
     filter: invert(100%);
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+.navbar-nav {
+    font-family: Alata;
+    font-size: 17px;
+}
+
+.nav-item {
+    font-family: Alata;
+}
+
+#copyright-text {
+    font-family: cardo;
+}
+
+.table-responsive-custom {
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 /*xs*/

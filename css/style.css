@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
 .container-fluid {
     padding: 0;
 }
@@ -6,6 +9,37 @@
     filter: invert(100%);
 }
 
+.navbar-brand {
+    padding-left: 50px;
+}
+
+.navbar-nav {
+    font-family: Alata;
+    font-size: 17px;
+}
+
+#title-words {
+    font-family: Cardo;
+    text-decoration: underline;
+}
+
+#information h2 {
+    font-family: Alata;
+}
+
+#information p {
+    font-family: Cardo;
+    font-size: 21px;
+}
+
+
+.nav-item {
+    font-family: Alata;
+}
+
+#copyright-text {
+    font-family: cardo;
+}
 
 /*xs*/
 @media screen and (max-width: 575px) {

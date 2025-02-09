@@ -19,6 +19,28 @@
     font-size: 17px;
 }
 
+#shipping-title h1 {
+    font-family: Alata;
+}
+
+#shipping-title p {
+    font-family: alata;
+    font-size: 20px;
+}
+
+.table {
+    font-family: alata;
+}
+
+#shipping-information h2 {
+    font-family: Alata;
+}
+
+#shipping-information p {
+    font-family: cardo;
+    font-size: 20px;
+}
+
 .nav-item {
     font-family: Alata;
 }

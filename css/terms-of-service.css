@@ -18,6 +18,29 @@
     font-size: 17px;
 }
 
+#tos-title h1 {
+    font-family: Alata;
+}
+
+#tos-title p {
+    font-family: alata;
+    font-size: 20px;
+}
+
+ol ::marker {
+    font-family: Alata;
+    font-size: 25px;
+}
+
+#tos-information h2 {
+    font-family: Alata;
+}
+
+#tos-information li, p {
+    font-family: cardo;
+    font-size: 20px;
+}
+
 .nav-item {
     font-family: Alata;
 }

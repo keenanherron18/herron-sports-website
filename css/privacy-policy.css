@@ -18,6 +18,24 @@
     font-size: 17px;
 }
 
+#privacy-policy-title h1 {
+    font-family: Alata;
+}
+
+#privacy-policy-title p {
+    font-family: alata;
+    font-size: 20px;
+}
+
+#privacy-policy-information h2 {
+    font-family: Alata;
+}
+
+#privacy-policy-information li, p {
+    font-family: cardo;
+    font-size: 20px;
+}
+
 .nav-item {
     font-family: Alata;
 }

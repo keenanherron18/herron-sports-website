@@ -18,6 +18,19 @@
     font-size: 17px;
 }
 
+#faq-title {
+    font-family: alata;  
+}
+
+#faq-questions h2 {
+    font-family: Alata;
+}
+
+#faq-questions p {
+    font-family: cardo;
+    font-size: 20px;
+}
+
 .nav-item {
     font-family: Alata;
 }
